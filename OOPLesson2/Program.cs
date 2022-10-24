@@ -7,43 +7,65 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Person person = new Person();
-            person.Name = "yarin";
-            person.Age = 40;
-            //Console.WriteLine($"{person.Age}");//0
-
-            //HW
-            Car car = new Car
-            {
-                Brand = "TOYOTA",
-                CarNumber = "123456",
-                Year = 1991
-            };
-
-            Car car2 = new Car
-            {
-                Brand = "SUBARU",
-                CarNumber = "123456",
-                Year = 1980
-            };
+            //בנאי 
+            //constructor
+            //ctor
+            Time time = new Time(1);
+            Console.WriteLine($"{time.Hour},{time.Minute}");//1,0
+            Time time1 = new Time(1,2);
+            Console.WriteLine($"{time1.Hour},{time1.Minute}");//1,2
 
 
-            car.PrinYear();
-            car.PrintBrand();
-            car.PrintCarNumber();
 
-            car2.PrinYear();
-            car2.PrintBrand();
-            car2.PrintCarNumber();
 
-            //
-            Person person2 = new Person
-            {
-                Age = 30,
-                Name = "yarin"
-            };
 
-            
+
+
+
+
+
+
+
+
+
+
+
+            //Person person = new Person
+            //person.Print();
+            //person.Name = "yarin";
+            //person.Age = 40;
+            ////Console.WriteLine($"{person.Age}");//0
+
+            ////HW
+            //Car car = new Car
+            //{
+
+            //};
+
+            //Car car2 = new Car
+            //{
+            //    Brand = "SUBARU",
+            //    CarNumber = "123456",
+            //    Year = 1980
+            //};
+
+
+            //car.PrinYear();
+            //car.PrintBrand();
+            //car.PrintCarNumber();
+
+            //car2.PrinYear();
+            //car2.PrintBrand();
+            //car2.PrintCarNumber();
+
+            ////
+            //Person person2 = new Person
+            //{
+            //    Age = 30,
+            //    Name = "yarin"
+            //};
+
+
 
 
             //person.Age = 30;
@@ -61,5 +83,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
 
         }
+
     }
 }
