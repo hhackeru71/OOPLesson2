@@ -31,9 +31,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Animals cat2 = new Animals("yarin",30,1);
             Console.WriteLine($"{cat2.Name},{cat2.Age},{cat2.Number}");
 
-            //Animals cat3 = new Animals(cat1);
-            Console.WriteLine($"{cat2.Name},{cat2.Age},{cat2.Number}");
-
 
 
             //Console.WriteLine(cat.Age);
