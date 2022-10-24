@@ -8,6 +8,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
 
+            
+
             //משימה להגדיר מחלקה של בעלי חיים
             //להגדיר prop  לפי הקיצור דרך
             //שם החיה
@@ -17,11 +19,15 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //ליצור בנאי שני שמקבל את גיל החיה ושם את הערך ב prop המתאים 
 
             // לאחר מכן להדפיס את שם החיה ואת הגיל של החיה 
+            //Animals cat1 = new Animals();
 
-            Animals cat = new Animals(1);
-            Console.WriteLine(cat.Age);
-            Animals dog = new Animals("blsdf");
-            Console.WriteLine(dog.Name);
+            Animals cat = new Animals("yarin",30,1);
+            Console.WriteLine($"{cat.Name},{cat.Age},{cat.Number}");
+            
+            
+            //Console.WriteLine(cat.Age);
+            //Animals dog = new Animals();
+            //Console.WriteLine(dog.Name);
 
 
             //בנאי 

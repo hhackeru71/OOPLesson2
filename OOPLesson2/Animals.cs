@@ -8,20 +8,28 @@ namespace OOPLesson2
 {
     internal class Animals
     {
+
+        public int Number { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
 
 
         //ליצירת בנאי קיצור דרך 
         //ctor + tab tab 
-        public Animals(string name)
+        public Animals(string name, int age)
         {
             Name = name;
-        }
-
-        public Animals(int age)
-        {
             Age = age;
         }
+        public Animals(string name, int age, int number)
+            :this(name, age)
+        {
+            Number = number;
+        }
+
+        //public Animals(int age)
+        //{
+        //    Age = age;
+        //}
     }
 }
