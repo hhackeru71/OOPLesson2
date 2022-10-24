@@ -7,10 +7,23 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
+
+            //משימה להגדיר מחלקה של בעלי חיים
+            //להגדיר prop  לפי הקיצור דרך
+            //שם החיה
+            //גיל החיה
+
+            //ליצור בנאי ראשון שמקבל את שם החיה ושם את הערך ב prop המתאים
+            //ליצור בנאי שני שמקבל את גיל החיה ושם את הערך ב prop המתאים 
+
+           // לאחר מכן להדפיס את שם החיה ואת הגיל של החיה 
+
+
+
             //בנאי 
             //constructor
             //ctor
-            Time time = new Time(1);
+            Time time = new Time();
             Console.WriteLine($"{time.Hour},{time.Minute}");//1,0
             Time time1 = new Time(1,2);
             Console.WriteLine($"{time1.Hour},{time1.Minute}");//1,2
